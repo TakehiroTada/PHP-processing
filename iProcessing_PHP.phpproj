@@ -1,0 +1,46 @@
+﻿<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Name>iProcessing_PHP</Name>
+    <ProjectGuid>c8fbe111-c695-4a30-a42a-2dee1a9ab357</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>
+    </RootNamespace>
+    <ProjectTypeGuids>{A0786B88-2ADB-4C21-ABE8-AA2D79766269}</ProjectTypeGuids>
+    <AssemblyName>iProcessing_PHP</AssemblyName>
+    <SpecificPageValue>iProgTest.php</SpecificPageValue>
+    <StartAction>SpecificPage</StartAction>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <IncludeDebugInformation>true</IncludeDebugInformation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <IncludeDebugInformation>false</IncludeDebugInformation>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="drill1figure.php" />
+    <Compile Include="drill1line.php" />
+    <Compile Include="drill1no1.php" />
+    <Compile Include="drill1no1ans.php" />
+    <Compile Include="drill1no2.php" />
+    <Compile Include="drill2no1.php" />
+    <Compile Include="drill2no2.php" />
+    <Compile Include="drill2no3.php" />
+    <Compile Include="drillbase.php" />
+    <Compile Include="GD_test.php" />
+    <Compile Include="GD_test2.php" />
+    <Compile Include="GD_test3.php" />
+    <Compile Include="index.php" />
+    <Compile Include="iProgEval.php" />
+    <Compile Include="iProgParse-bak.php" />
+    <Compile Include="iProgParse.php" />
+    <Compile Include="iProgTest.php" />
+    <Compile Include="iProgToken.php" />
+    <Compile Include="processing.php" />
+    <Compile Include="sample.php" />
+    <Compile Include="test1.php" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="if.txt" />
+  </ItemGroup>
+</Project>
